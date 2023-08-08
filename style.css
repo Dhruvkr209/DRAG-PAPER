@@ -1,0 +1,124 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+
+.paper{
+    padding: 100px 100px ;
+}
+body{
+    
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('Images/bg.jpg');
+    background-size:  500px;
+    background-position: center center;
+}
+
+.paper{
+  
+    position: absolute;
+    background-image: url('Images/1.jpg');
+    background-size: 500px;
+    background-position: center center;
+    padding: 40px 100px;
+    transform: rotateY(-10deg);
+    box-shadow: 7px 10px 30px rgba(0, 0, 1, 1);
+    
+
+}
+.paperheart{
+    height: 200px;
+    width: 200px;
+    background-image: url('Images/heart-removebg-preview.png');
+    background-size: 500px;
+    background-position: center center;
+    background-position-x: absolute;
+    transform: rotateZ(-10deg);
+    text-align: center;
+    justify-content: center;
+
+}
+.paper.heart{
+    background-image: url('Images/heart-removebg-preview.png');
+    background-position: center;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    text-align: center;
+    transform: rotate(-10deg);
+}
+
+.paper.image.k{
+    height: 180px;
+    width: 1px;
+    transform: rotate(10deg);
+  
+}
+.paper.image.k img{
+    position: relative;
+    height: 250px;
+    bottom: 34px;
+    transform: rotateY(-10deg);
+}
+.paper.image1{
+    height: 240px;
+    width: 1px;
+    display: flex;
+    align-items: center center;
+    justify-content: center;
+    transform: rotate(-10deg);
+    
+}
+.paper.image1 img{
+    height: 301px;
+    position: relative;
+    bottom: 30px;
+    align-items: center;
+    transform: rotateY(-10deg);
+    
+   
+}
+.paper.image.s{
+    
+    
+    height: 240px;
+    width: 1px;
+    display: flex;
+    align-items: center center;
+    justify-content: center;
+    transform: rotate(-10deg);
+}
+
+.paper.image.s img{
+    height: 310px;
+    position: relative;
+    bottom: 35px;
+    right: 1px;
+    align-items: center;
+}
+
+.paper.image{
+     
+    height: 210px;
+    width: 1px;
+    display: flex;
+    align-items: center center;
+    justify-content: center;
+}
+.paper.image img{
+    height: 240px;
+}
+p{
+    font-family:Zeyada;
+    font-weight: bold;
+    
+}
+P1{
+    position: relative;
+    left: -3.4cm;
+    font-weight: bold;
+    bottom: 8cm;
+    font-size:xx-small;
+    background-color: azure;
+}
